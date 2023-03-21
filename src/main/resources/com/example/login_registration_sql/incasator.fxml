@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="260.0" prefWidth="330.0" style="-fx-background-color: #03a2ad;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login_registration_sql.Incasator">
+   <children>
+      <AnchorPane layoutY="67.0" prefHeight="200.0" prefWidth="330.0" style="-fx-background-color: #f5edda;">
+         <children>
+            <TextField fx:id="Add_textfield" layoutX="14.0" layoutY="90.0" prefHeight="26.0" prefWidth="105.0" promptText="Money to add" style="-fx-background-color: #f5edda; -fx-border-color: black;" styleClass="Add_textfield" visible="false" />
+            <TextField fx:id="Minus_texxtfield" layoutX="210.0" layoutY="90.0" prefHeight="26.0" prefWidth="105.0" promptText="Money to minus" style="-fx-background-color: #f5edda; -fx-border-color: black;" styleClass="Minus_textfield" visible="false" />
+            <Label fx:id="Status_label" layoutX="20.0" layoutY="55.0" text="Status:" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="Execute_button" layoutX="137.0" layoutY="131.0" mnemonicParsing="false" style="-fx-background-color: #03a2ad;" text="Execute" visible="false" />
+            <Label fx:id="Informatin_label" layoutX="20.0" layoutY="15.0" text="Information:" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="Startwork_button" layoutX="130.0" layoutY="77.0" mnemonicParsing="false" style="-fx-background-color: #03a2ad;" text="Start work" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="94.0" text="Incasator">
+         <font>
+            <Font name="Segoe Script" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
